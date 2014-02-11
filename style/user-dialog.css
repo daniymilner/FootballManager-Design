@@ -1,0 +1,36 @@
+.dialog-wrapper{
+	position: absolute;
+	top: 110%;
+	right: 0;
+	width: 220px;
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	z-index: 10;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.dialog-wrapper .form-group{
+    margin-bottom: 0;
+}
+.dialog-wrapper .radio,
+.dialog-wrapper .checkbox{
+	padding-top: 3px;
+	padding-left: 0;
+}
+.dialog-wrapper .col-sm-offset-2{
+    margin-left: 7%;
+    padding-left: 0;
+    padding-right: 13px;
+}
+.dialog-wrapper .control-label,
+.dialog-wrapper .radio,
+.dialog-wrapper .checkbox,
+.dialog-wrapper .radio-inline,
+.dialog-wrapper .checkbox-inline{
+    padding-top: 5px;
+    padding-left: 19px;
+}
+.dialog-wrapper .btn{
+	float: right;
+}
