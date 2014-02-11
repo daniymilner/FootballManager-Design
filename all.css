@@ -1,0 +1,12 @@
+@import url("style/font.css");
+
+@import url("style/bootstrap.css");
+@import url("style/general.css");
+@import url("style/screen_640.css");
+@import url("style/screen_800.css");
+@import url("style/screen_1024.css");
+@import url("style/screen_1280.css");
+@import url("style/moz-fix/mozilla.css");
+
+
+@import url("style/registration/registration.css");
