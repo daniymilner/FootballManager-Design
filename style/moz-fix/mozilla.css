@@ -1,5 +1,5 @@
 @-moz-document url-prefix() {
-	@media all and (max-width: 780px) {
+	@media all and (max-width: 768px) {
 		.scoreboard ul {
 			padding: 0 10px 3px;
 		}
@@ -8,21 +8,20 @@
 			margin-right: 5px;
 		}
 
-		.user-menu > ul li {
-			margin-right: 4px;
-		}
-
 		.user-wrapper {
 			padding: 15px 20px;
 		}
+		.main-content{
+			width: 590px;
+		}
 	}
-	@media all and (min-width: 780px) and (max-width: 1000px ) {
+	@media all and (min-width: 768px) and (max-width: 1000px ) {
 		.scoreboard ul li {
 			margin-right: 10px;
 		}
 
 		.user-menu > ul li {
-			margin-right: 27px;
+			margin-right: 20px;
 		}
 
 		.user-wrapper {
@@ -42,7 +41,7 @@
 			padding: 15px 25px;
 		}
 	}
-	@media all and (min-width: 1251px) {
+	@media all and (min-width: 1251px){
 		.scoreboard ul li {
 			margin-right: 25px;
 		}
